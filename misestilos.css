@@ -1,0 +1,35 @@
+/*Ojo que afecta a todas las paginas*/
+* { 
+    font-family: poppins;
+    background-color: #F0CCD9
+}
+
+#header { 
+    text-align: center;
+    padding: 25px 25px 25px 25px;
+}
+
+.social img {
+
+    height: 120px;
+    width: 120px;  
+}
+
+/* atacamos al social, sino atacaria a imagen por imagen*/
+.social{
+
+    display: flex;
+  justify-content: center
+}
+
+#imgpersonal {
+
+    text-align: center;
+    padding-top: 25px;
+}
+
+hr {
+    height: 2px;
+    width: 800px;
+    background-color: #21264e;
+}
