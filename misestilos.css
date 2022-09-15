@@ -1,35 +1,77 @@
 /*Ojo que afecta a todas las paginas*/
 * { 
     font-family: poppins;
-    background-color: #F0CCD9
+}
+/*Quitamos los puntos a la lista*/
+
+body {
+    margin: 0;
+    background-color: #99FFCC
 }
 
-#header { 
-    text-align: center;
-    padding: 25px 25px 25px 25px;
+header {
+    display: flex;
+    height: 70px;
+    background-color: #21264e;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;   
+}
+
+/*DAMOS ESTILO AL MENU*/
+header nav a {
+	padding: 15px 40px;
+	color: #99FFCC;
+	text-decoration:none;
+    border-radius: 30px;
+    font-weight: 500;
+}
+
+/*RESALTAMOS EL MENU*/
+header nav a:hover {
+	background:#8a2be2;
 }
 
 .social img {
 
-    height: 120px;
-    width: 120px;  
+    height: 100px;
+    width: 100px;  
 }
 
 /* atacamos al social, sino atacaria a imagen por imagen*/
 .social{
 
     display: flex;
-  justify-content: center
+    justify-content: center
+}
+
+.social img:hover{
+    transform: scale(1.5);
+}
+
+main div p {
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 0px;
 }
 
 #imgpersonal {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+}
 
+main div p {
     text-align: center;
-    padding-top: 25px;
+    color: #8a2be2;
+    padding-bottom: 10px;
 }
 
 hr {
     height: 2px;
-    width: 800px;
+    width:800px;
+    border: 0;
     background-color: #21264e;
 }
+
