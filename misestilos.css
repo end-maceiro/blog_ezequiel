@@ -12,8 +12,8 @@ body {
 
 header {
     display: flex;
-    height: 60px;
-    width: 1450px;
+    height: 70px;
+    width: 1440px;
     background-color: #21264e;
     justify-content: center;
     align-items: center;
@@ -21,10 +21,10 @@ header {
 
 /*DAMOS ESTILO AL MENU*/
 header nav a {
-	padding: 20px 50px;
+	padding: 50px;
 	color: #99FFCC;
 	text-decoration:none;
-    border-radius: 30px;
+    border-radius: 50%;
     font-size: 18px;
 }
 
@@ -33,23 +33,21 @@ header nav a:hover {
 	background: #6666ff;
 }
 
-.imgpersonal {
-    display: flex;
-    height: 100px;
-    width: 1450px;
-    padding-bottom: 350px;
-    margin: 0%;
-}
 
+/*Img Index personal*/
 .imgpersonal img {
-    object-fit:cover ;
-    height: 72%;
-    width: 100%;
-    position: absolute;
-    top: 60px;
+    display: block;
+    margin: auto;
+    margin-top: 0px;
+    height: 450px;
+    width: 1450px;
+    background: lightblue;
+    object-fit: cover;
+    object-position: center;
 }
 
-main div p {
+/*Nombre y profesión*/
+.imgpersonal p {
     font-size: 30px;
     text-align: center;
     color: #21264e;
