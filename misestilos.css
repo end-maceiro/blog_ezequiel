@@ -1,13 +1,17 @@
+/*INDEX*/
+
 /*Ojo que afecta a todas las paginas*/
-* { 
+* {
     font-family: poppins;
 }
+
 /*Quitamos los puntos a la lista*/
 
 body {
     margin: 0;
     background-color: #99FFCC;
     position: fixed;
+        /*PONER FIXED*/
 }
 
 header {
@@ -16,32 +20,31 @@ header {
     width: 1440px;
     background-color: #21264e;
     justify-content: center;
-    align-items: center;
+    align-items: center
 }
 
 /*DAMOS ESTILO AL MENU*/
 header nav a {
-	padding: 50px;
-	color: #99FFCC;
-	text-decoration:none;
-    border-radius: 50%;
+    padding: 50px;
+    color: #99FFCC;
+    text-decoration: none;
     font-size: 18px;
 }
 
-/*RESALTAMOS EL MENU*/
+/*RESALTAMOS EL MENU
 header nav a:hover {
-	background: #6666ff;
-}
+    background: #6666ff;
+    
+}*/
 
 
 /*Img Index personal*/
 .imgpersonal img {
-    display: block;
+    display: flex;
     margin: auto;
     margin-top: 0px;
     height: 450px;
     width: 1450px;
-    background: lightblue;
     object-fit: cover;
     object-position: center;
 }
@@ -60,15 +63,15 @@ header nav a:hover {
 
 hr {
     height: 3px;
-    width:800px;
+    width: 800px;
     border: 0px;
-    background-color: #21264e;  
+    background-color: #21264e;
     position: relative;
     top: 20px;
 }
 
 /* atacamos al social, sino atacaria a imagen por imagen*/
-.social{
+.social {
     display: flex;
     height: 10px;
     width: 1450px;
@@ -80,7 +83,80 @@ hr {
     width: 140px;
 }
 
-.social img:hover{
+.social img:hover {
     transform: scale(1.5);
 }
+
+/*PORTFOLIO*/
+
+.imgportfolio {
+    width: 100%;
+    max-width: 1200px;
+    height: 440px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 110px;
+}
+
+.imgportfolio .startup {
+    width: 300px;
+    height: 380px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 5px 5px #6666ff;
+    overflow: hidden;
+    margin: 50px;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.imgportfolio .startup:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 2px 2px #6666ff;
+
+}
+
+.imgportfolio .startup img {
+    width: 290px;
+    height: 190px;
+
+}
+
+.imgportfolio .startup p {
+    font-size: 20px;
+    text-decoration: none;
+    padding: 5px;
+    color: #21264e;
+}
+
+.imgportfolio .startup a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #6666ff;
+    
+}
+
+/* CONTACTO */
+
+.prueba {
+    background-color: #21264e;
+    display: flex;
+    height: 100px;
+    width: 1450px;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
 
